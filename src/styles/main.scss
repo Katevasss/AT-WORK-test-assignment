@@ -1,0 +1,75 @@
+@import 'src/styles/constants';
+
+@font-face {
+   font-family: "Overpass";
+   src: url("fonts/Overpass-VariableFont_wght.ttf");
+}
+
+@font-face {
+   font-family: "SansSerifCollection";
+   src: url("fonts/SansSerifCollection.ttf");
+}
+
+@font-face {
+   font-family: "OpenSans";
+   src: url("fonts/OpenSansLight.ttf");
+}
+
+
+
+
+
+:root {
+   --accentBlue: #22a0bc;
+   --textBlack: #343F7A;
+   --darkGray: #22a0bc;
+   --gray: #000;
+   --lightGray: #F55557;
+   --white: #ffffff;
+
+   * {
+      box-sizing: border-box;
+   }
+
+   html,
+   body {
+      padding: 0;
+      margin: 0;
+      font-family: Overpass;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 1.5rem;
+      height: 100%;
+      scroll-behavior: smooth;
+
+      @media screen and (max-width: $mobileSize) {
+         font-size: 12px;
+      }
+   }
+
+   h1,
+   .h1,
+   h2,
+   .h2,
+   h3,
+   .h3,
+   h4,
+   .h4,
+   h5,
+   .h4,
+   h6,
+   .h6 {
+
+      font-family: OpenSans;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin: 0;
+      padding: 0;
+      overflow-wrap: break-word;
+   }
+
+
+   #portalModalWindow {
+      position: absolute;
+   }
+}
