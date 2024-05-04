@@ -1,0 +1,36 @@
+.inputLayout {
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+   width: 60%;
+}
+
+.inputContainer {
+   position: relative;
+
+   input {
+      position: relative;
+      width: 100%;
+   }
+
+}
+
+.inputLabel {
+   font-size: 1.2rem;
+   // padding-bottom: 1rem;
+}
+
+
+.clearButton {
+   position: absolute;
+   top: 50%;
+   right: 0.8rem;
+   transform: translateY(-50%);
+   border: none;
+   background: none;
+   cursor: pointer;
+   font-size: 16px;
+   color: gray;
+
+
+}

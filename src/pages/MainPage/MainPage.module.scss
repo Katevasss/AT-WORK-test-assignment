@@ -1,0 +1,16 @@
+.mainLayout {
+   padding: 1rem 12rem;
+}
+
+.cardsLayout {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 1rem;
+   padding-top: 2rem;
+   border-top: 1px solid var(--gray);
+}
+
+.activeLayout {
+   padding-top: 2rem;
+
+}

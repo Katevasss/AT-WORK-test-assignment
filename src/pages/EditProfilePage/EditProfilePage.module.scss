@@ -1,0 +1,25 @@
+.layout {
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+
+}
+
+.columnsLayout {
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   gap: 2rem;
+}
+
+.backLink {
+   display: flex;
+   gap: 0.5rem;
+   text-decoration: none;
+   color: var(--accentGray);
+   align-items: center;
+   font-size: 1.3rem;
+
+   &:hover {
+      color: var(--accentBlue);
+   }
+}

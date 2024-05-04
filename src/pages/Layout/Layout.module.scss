@@ -1,0 +1,22 @@
+.page {
+   background-color: var(--lightGray);
+   height: 100vh;
+}
+
+.navLayout {
+   background-color: var(--white);
+   display: flex;
+   justify-content: space-between;
+   gap: 1rem;
+   padding: 1rem 12rem;
+}
+
+.rightColumn {
+   display: flex;
+   align-items: center;
+   gap: 0.5rem;
+}
+
+.content {
+   padding: 1rem 12rem;
+}

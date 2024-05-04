@@ -1,0 +1,67 @@
+.cardLayout {
+   background-color: var(--white);
+   border-radius: 1rem;
+   display: flex;
+   justify-content: space-between;
+   max-width: 30rem;
+   max-height: 11rem;
+   padding: 1.5rem;
+   position: relative;
+   // gap: 0.7rem;
+
+}
+
+.userInfo {
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   justify-content: space-between;
+}
+
+.popupLayout {
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   width: 10rem;
+   background-color: var(--white);
+   padding: 1rem;
+   margin: 2rem;
+   border-radius: 1rem;
+   right: 0;
+   top: 0;
+   z-index: 999;
+
+}
+
+.avatar {
+   width: 8rem;
+   height: 8rem;
+   object-fit: cover;
+   border-radius: 1rem;
+   overflow: hidden;
+}
+
+.userName {
+   font-size: 1.3rem;
+   color: var(--accentBlue);
+   max-width: 8rem;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+   overflow: hidden;
+}
+
+p {
+   margin: 0;
+}
+
+.rowGap {
+   display: flex;
+   gap: 0.8rem;
+}
+
+.columnGap {
+   display: flex;
+   flex-direction: column;
+   gap: 0.8rem;
+}
